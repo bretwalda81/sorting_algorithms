@@ -58,9 +58,10 @@ list = list->next;
 }
 
 /**
-* check_list - checks if list is ordered
+* check_array - checks if array is ordered
 *
-* @list: The list to be printed
+* @array: The array
+* @size: size of array
 */
 void check_array(const int *array, size_t size)
 {
